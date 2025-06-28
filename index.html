@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Act Of Kindness Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🌟 Random Act Of Kindness</h1>
+      <p class="tagline">Get inspired to spread kindness with a click.</p>
+
+      <div id="act-display">
+        <p id="act-text">Click the button to generate an act of kindness!</p>
+      </div>
+
+      <button id="generate-btn">✨ Generate Act</button>
+
+      <div class="share-section">
+        <p>Share this act:</p>
+        <div class="share-buttons">
+          <a id="share-twitter" href="#" target="_blank">Twitter</a>
+          <a id="share-facebook" href="#" target="_blank">Facebook</a>
+          <a id="share-copy" href="#" onclick="copyToClipboard()">Copy Link</a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
